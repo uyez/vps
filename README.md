@@ -41,3 +41,31 @@
     </tr>
   </tbody>
 </table>
+<h1/>
+
+## VPS常用命令
+更新系统
+apt update && apt upgrade -y
+
+安装 curl
+apt install curl -y
+
+安装 sudo
+apt update && apt install sudo
+
+安装 ufw
+sudo apt install ufw -y
+
+关闭防火墙：
+sudo ufw disable
+
+查看防火墙状态：
+sudo ufw status
+
+放行端口：
+sudo ufw allow 80
+sudo ufw allow 443
+提示：80/443/3X-UI面板对应的端口/节点端口需要放行，如果关闭防火墙了这一步可以忽略。
+
+## 3X-UI搭建代码：
+    bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
