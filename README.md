@@ -41,30 +41,30 @@
     </tr>
   </tbody>
 </table>
-<h1/>
 
+<br>
 ## VPS常用命令
-更新系统
-apt update && apt upgrade -y
+更新系统<br>
+apt update && apt upgrade -y<br>
 
-安装 curl
-apt install curl -y
+安装 curl<br>
+apt install curl -y<br>
 
-安装 sudo
-apt update && apt install sudo
+安装 sudo<br>
+apt update && apt install sudo<br>
 
-安装 ufw
-sudo apt install ufw -y
+安装 ufw<br>
+sudo apt install ufw -y<br>
 
-关闭防火墙：
-sudo ufw disable
+关闭防火墙：<br>
+sudo ufw disable<br>
 
-查看防火墙状态：
-sudo ufw status
+查看防火墙状态：<br>
+sudo ufw status<br>
 
-放行端口：
-sudo ufw allow 80
-sudo ufw allow 443
+放行端口：<br>
+sudo ufw allow 80<br>
+sudo ufw allow 443<br>
 提示：80/443/3X-UI面板对应的端口/节点端口需要放行，如果关闭防火墙了这一步可以忽略。
 
 ## 3X-UI搭建代码：
